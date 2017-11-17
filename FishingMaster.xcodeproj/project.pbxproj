@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BAB7791FBF91C6006171E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB7781FBF91C6006171E4 /* AppDelegate.swift */; };
+		68BAB77B1FBF91C6006171E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68BAB77A1FBF91C6006171E4 /* GameScene.sks */; };
+		68BAB77D1FBF91C6006171E4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68BAB77C1FBF91C6006171E4 /* Actions.sks */; };
+		68BAB77F1FBF91C6006171E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB77E1FBF91C6006171E4 /* GameScene.swift */; };
+		68BAB7811FBF91C6006171E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB7801FBF91C6006171E4 /* GameViewController.swift */; };
+		68BAB7841FBF91C6006171E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BAB7821FBF91C6006171E4 /* Main.storyboard */; };
+		68BAB7861FBF91C6006171E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BAB7851FBF91C6006171E4 /* Assets.xcassets */; };
+		68BAB7891FBF91C6006171E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BAB7871FBF91C6006171E4 /* LaunchScreen.storyboard */; };
+		68BAB7941FBF91C6006171E4 /* FishingMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB7931FBF91C6006171E4 /* FishingMasterTests.swift */; };
+		68BAB79F1FBF91C6006171E4 /* FishingMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB79E1FBF91C6006171E4 /* FishingMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68BAB7901FBF91C6006171E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BAB76D1FBF91C6006171E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BAB7741FBF91C6006171E4;
+			remoteInfo = FishingMaster;
+		};
+		68BAB79B1FBF91C6006171E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68BAB76D1FBF91C6006171E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BAB7741FBF91C6006171E4;
+			remoteInfo = FishingMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68BAB7751FBF91C6006171E4 /* FishingMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BAB7781FBF91C6006171E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68BAB77A1FBF91C6006171E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		68BAB77C1FBF91C6006171E4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		68BAB77E1FBF91C6006171E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		68BAB7801FBF91C6006171E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		68BAB7831FBF91C6006171E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68BAB7851FBF91C6006171E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68BAB7881FBF91C6006171E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68BAB78A1FBF91C6006171E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BAB78F1FBF91C6006171E4 /* FishingMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BAB7931FBF91C6006171E4 /* FishingMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingMasterTests.swift; sourceTree = "<group>"; };
+		68BAB7951FBF91C6006171E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BAB79A1FBF91C6006171E4 /* FishingMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishingMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BAB79E1FBF91C6006171E4 /* FishingMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingMasterUITests.swift; sourceTree = "<group>"; };
+		68BAB7A01FBF91C6006171E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BAB7721FBF91C6006171E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB78C1FBF91C6006171E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB7971FBF91C6006171E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BAB76C1FBF91C6006171E4 = {
+			isa = PBXGroup;
+			children = (
+				68BAB7771FBF91C6006171E4 /* FishingMaster */,
+				68BAB7921FBF91C6006171E4 /* FishingMasterTests */,
+				68BAB79D1FBF91C6006171E4 /* FishingMasterUITests */,
+				68BAB7761FBF91C6006171E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BAB7761FBF91C6006171E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BAB7751FBF91C6006171E4 /* FishingMaster.app */,
+				68BAB78F1FBF91C6006171E4 /* FishingMasterTests.xctest */,
+				68BAB79A1FBF91C6006171E4 /* FishingMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BAB7771FBF91C6006171E4 /* FishingMaster */ = {
+			isa = PBXGroup;
+			children = (
+				68BAB7781FBF91C6006171E4 /* AppDelegate.swift */,
+				68BAB77A1FBF91C6006171E4 /* GameScene.sks */,
+				68BAB77C1FBF91C6006171E4 /* Actions.sks */,
+				68BAB77E1FBF91C6006171E4 /* GameScene.swift */,
+				68BAB7801FBF91C6006171E4 /* GameViewController.swift */,
+				68BAB7821FBF91C6006171E4 /* Main.storyboard */,
+				68BAB7851FBF91C6006171E4 /* Assets.xcassets */,
+				68BAB7871FBF91C6006171E4 /* LaunchScreen.storyboard */,
+				68BAB78A1FBF91C6006171E4 /* Info.plist */,
+			);
+			path = FishingMaster;
+			sourceTree = "<group>";
+		};
+		68BAB7921FBF91C6006171E4 /* FishingMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				68BAB7931FBF91C6006171E4 /* FishingMasterTests.swift */,
+				68BAB7951FBF91C6006171E4 /* Info.plist */,
+			);
+			path = FishingMasterTests;
+			sourceTree = "<group>";
+		};
+		68BAB79D1FBF91C6006171E4 /* FishingMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68BAB79E1FBF91C6006171E4 /* FishingMasterUITests.swift */,
+				68BAB7A01FBF91C6006171E4 /* Info.plist */,
+			);
+			path = FishingMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BAB7741FBF91C6006171E4 /* FishingMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BAB7A31FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMaster" */;
+			buildPhases = (
+				68BAB7711FBF91C6006171E4 /* Sources */,
+				68BAB7721FBF91C6006171E4 /* Frameworks */,
+				68BAB7731FBF91C6006171E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishingMaster;
+			productName = FishingMaster;
+			productReference = 68BAB7751FBF91C6006171E4 /* FishingMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68BAB78E1FBF91C6006171E4 /* FishingMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BAB7A61FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMasterTests" */;
+			buildPhases = (
+				68BAB78B1FBF91C6006171E4 /* Sources */,
+				68BAB78C1FBF91C6006171E4 /* Frameworks */,
+				68BAB78D1FBF91C6006171E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BAB7911FBF91C6006171E4 /* PBXTargetDependency */,
+			);
+			name = FishingMasterTests;
+			productName = FishingMasterTests;
+			productReference = 68BAB78F1FBF91C6006171E4 /* FishingMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68BAB7991FBF91C6006171E4 /* FishingMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BAB7A91FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMasterUITests" */;
+			buildPhases = (
+				68BAB7961FBF91C6006171E4 /* Sources */,
+				68BAB7971FBF91C6006171E4 /* Frameworks */,
+				68BAB7981FBF91C6006171E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BAB79C1FBF91C6006171E4 /* PBXTargetDependency */,
+			);
+			name = FishingMasterUITests;
+			productName = FishingMasterUITests;
+			productReference = 68BAB79A1FBF91C6006171E4 /* FishingMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BAB76D1FBF91C6006171E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wustl;
+				TargetAttributes = {
+					68BAB7741FBF91C6006171E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					68BAB78E1FBF91C6006171E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68BAB7741FBF91C6006171E4;
+					};
+					68BAB7991FBF91C6006171E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68BAB7741FBF91C6006171E4;
+					};
+				};
+			};
+			buildConfigurationList = 68BAB7701FBF91C6006171E4 /* Build configuration list for PBXProject "FishingMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68BAB76C1FBF91C6006171E4;
+			productRefGroup = 68BAB7761FBF91C6006171E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BAB7741FBF91C6006171E4 /* FishingMaster */,
+				68BAB78E1FBF91C6006171E4 /* FishingMasterTests */,
+				68BAB7991FBF91C6006171E4 /* FishingMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68BAB7731FBF91C6006171E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BAB7841FBF91C6006171E4 /* Main.storyboard in Resources */,
+				68BAB77B1FBF91C6006171E4 /* GameScene.sks in Resources */,
+				68BAB7861FBF91C6006171E4 /* Assets.xcassets in Resources */,
+				68BAB7891FBF91C6006171E4 /* LaunchScreen.storyboard in Resources */,
+				68BAB77D1FBF91C6006171E4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB78D1FBF91C6006171E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB7981FBF91C6006171E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BAB7711FBF91C6006171E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BAB77F1FBF91C6006171E4 /* GameScene.swift in Sources */,
+				68BAB7811FBF91C6006171E4 /* GameViewController.swift in Sources */,
+				68BAB7791FBF91C6006171E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB78B1FBF91C6006171E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BAB7941FBF91C6006171E4 /* FishingMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BAB7961FBF91C6006171E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BAB79F1FBF91C6006171E4 /* FishingMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68BAB7911FBF91C6006171E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BAB7741FBF91C6006171E4 /* FishingMaster */;
+			targetProxy = 68BAB7901FBF91C6006171E4 /* PBXContainerItemProxy */;
+		};
+		68BAB79C1FBF91C6006171E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68BAB7741FBF91C6006171E4 /* FishingMaster */;
+			targetProxy = 68BAB79B1FBF91C6006171E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68BAB7821FBF91C6006171E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BAB7831FBF91C6006171E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68BAB7871FBF91C6006171E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BAB7881FBF91C6006171E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68BAB7A11FBF91C6006171E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68BAB7A21FBF91C6006171E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BAB7A41FBF91C6006171E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishingMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68BAB7A51FBF91C6006171E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishingMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68BAB7A71FBF91C6006171E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FishingMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishingMaster.app/FishingMaster";
+			};
+			name = Debug;
+		};
+		68BAB7A81FBF91C6006171E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FishingMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishingMaster.app/FishingMaster";
+			};
+			name = Release;
+		};
+		68BAB7AA1FBF91C6006171E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FishingMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FishingMaster;
+			};
+			name = Debug;
+		};
+		68BAB7AB1FBF91C6006171E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FishingMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KRTT.FishingMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FishingMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BAB7701FBF91C6006171E4 /* Build configuration list for PBXProject "FishingMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAB7A11FBF91C6006171E4 /* Debug */,
+				68BAB7A21FBF91C6006171E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BAB7A31FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAB7A41FBF91C6006171E4 /* Debug */,
+				68BAB7A51FBF91C6006171E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68BAB7A61FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAB7A71FBF91C6006171E4 /* Debug */,
+				68BAB7A81FBF91C6006171E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68BAB7A91FBF91C6006171E4 /* Build configuration list for PBXNativeTarget "FishingMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAB7AA1FBF91C6006171E4 /* Debug */,
+				68BAB7AB1FBF91C6006171E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BAB76D1FBF91C6006171E4 /* Project object */;
+}
